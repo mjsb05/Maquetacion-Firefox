@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 24px;
+    font-family: helvetica;
+    font-size: 16px;
+    color: #333;
+}
+.ancho{
+    margin: auto;
+    width: 1200px;
+    /* border: 1px red solid; */
+}
+.margen{
+    padding: 15px;
+}
+/* alineaciones */
+.centrar{
+    text-align: center;
+}
+.derecha{
+    text-align: right;
+}
+.izquierda{
+    text-align: left;
+}
+
+/* colores */
+.azul{
+    color: blue;
+}
+/* estilos */
+.negrita{
+    font-weight: bold;
+}
+/* Contenedores */
+
+/* cabecera */
+.contenedor_cabecera{
+    padding:  5px 40px;
+    background-color: #f9f9f9;
+    border-bottom: #d8d8d8 2px solid;
+}
+.contenedor_logo_cabecera{
+    width: 15%;
+    padding: 0px 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.contenedor_logo_cabecera img{
+    width: 100%;
+}
+.contenedor_navegación_cabecera{
+    width: 65%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.contenedor_navegación_cabecera a{
+    padding: 0px 15px;
+    display: inline-block;
+    text-decoration:none;
+    font-weight: bold;
+    color: #333;
+}
+.contenedor_descargar{
+    width: 15%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+.contenedor_descargar a{
+    padding: 5px 15px;
+    text-decoration:none;
+    color: blue;
+    border: 1px blue solid;
+    border-radius: 8px;
+}
+/* Area 1 */
+.contenedor_area1{
+    padding: 30px 40px;
+}
+.contenedor_area1_descarga{
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+}
+.contenedor_area1_descarga img{
+    width: 100px;
+    margin-bottom: 15px;
+}
+.contenedor_area1_descarga h1{
+    margin-bottom: 30px;
+}
+.contenedor_area1_descarga p{
+    margin-bottom: 30px;
+}
+.contenedor_area1_descarga a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: blue;
+    border-radius: 8px;
+}
+.aviso_privacidad{
+    padding-left: 5px;
+    margin-top: 8px;
+    color: #b6b5b5;
+    font-size: 12px;
+}
+.contenedor_area1_navegador{
+    display: inline-block;
+    width: 39%;
+    vertical-align: top;
+}
+.contenedor_area1_navegador img{
+    width: 100%;
+}
+/* banner */
+.contenedor_banner{
+    padding: 30px 40px;
+    background-color: #f1f1f1;
+}
+.contenedor_dinosaurio{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+.contenedor_dinosaurio img{
+    width: 100%;
+}
+.contenedor_banner_informacion{
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+.contenedor_banner_informacion h2{
+    font-size: 40px;
+    line-height: 50px;
+    padding: 0px 30px;
+    margin-bottom: 15px;
+}
+.contenedor_banner_informacion p{
+    padding: 0px 30px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+/* Area 2 */
+.contenedor_area2{
+    padding: 30px 45px;
+}
+.contenedor_area2 h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.contenedor_area2 p{
+    margin-bottom: 30px;
+}
+.contenedor_area2 ul{
+    padding-left: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.contenedor_area2_izquierda{
+    width: 50%;
+    display: inline-block;
+    border-right: #b6b5b5 solid 2px;
+    padding: 0px 50px;
+    margin-right: 10px;
+}
+.contenedor_area2_derecha{
+    width: 48%;
+    display: inline-block;
+    padding: 0px 50px;
+}
+/* Area 3 */
+.contenedor_area3 h3{
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.contenedor_area3 p{
+    padding: 40px;
+}
+.contenedor_area3 img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.contenedor_area3_extension{
+    width: 30%;
+    display: inline-block;
+}
+.contenedor_area3_empleo{
+    width: 30%;
+    display: inline-block;
+}
+.contenedor_area3_ayuda{
+    width: 30%;
+    display: inline-block;
+}
+/* registo */
+.contenedor_foto_registro{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.contenedor_recibe_noticias{
+    text-align: left;
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+.contenedor_recibe_noticias h3{
+    font-size: 30px;
+    padding: 20px 250px 20px 0px;
+    line-height: 30px;
+}
+.contenedor_recibe_noticias input{
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.contenedor_recibe_noticias button{
+    color: white;
+    background-color: black;
+    width: 400px;
+    padding: 10px;
+}
+.contenedor_recibe_noticias h6{
+    padding-left: 60px;
+}
+/* footbar */
+.contenedor_footbar{
+    background-color: black;
+}
